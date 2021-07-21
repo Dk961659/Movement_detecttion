@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+#capture video from host video is vtest.avi
 cap= cv2.VideoCapture('vtest.avi')
 ret,frame1 =cap.read()
 ret,frame2 =cap.read()
